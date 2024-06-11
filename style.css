@@ -737,8 +737,8 @@ body {
   overflow: hidden;
 }
 
-.redbutton {
-  background: #de5547;
+.bluebutton {
+  background: #35b7ed;
   padding: 20px 40px;
   border: none;
   border-radius: 8px;
@@ -783,7 +783,7 @@ body {
 }
 
 .red-blue {
-  background: linear-gradient(90deg, #e73239 0.01%, #013d84 100%);
+  background: linear-gradient(90deg, #e73239 0.01%, #35b7ed 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -896,7 +896,7 @@ body {
     height: 40px;
   }
 
-  .redbutton {
+  .bluebutton {
     padding: 16px 32px;
     font-size: 24px;
   }
@@ -1108,7 +1108,7 @@ body {
     height: 40px;
   }
 
-  .redbutton {
+  .bluebutton {
     padding: 16px 32px;
     font-size: 22px;
   }
@@ -1253,7 +1253,7 @@ body {
     height: 20px;
   }
 
-  .redbutton {
+  .bluebutton {
     padding: 16px 16px;
     font-size: 15px;
   }
