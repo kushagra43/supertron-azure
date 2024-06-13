@@ -128,38 +128,38 @@ let currentSlide = 0;
 const slidesContent = [
   {
     right:
-      "“Dropbox has been tremendously helpful for social media. I can hop on anytime and pull whatever photo is inspiring me to post.”",
+      "“LEGO House takes the physical brick to new frontiers with inventive, interactive digital experiences built with Azure solutions.”",
     author: "Mary Ashley Krogh (MAK)",
     post: " Illustrator and Graphic Designer",
-    src: "/azure/carouselimg1.webp",
+    src: "/Customer-img-LEGO-2x.png",
   },
   {
     right:
-      "“Dropbox increased our team’s collaboration while working from home, which has increased our flexibility and could revolutionise our office culture.”",
+      "“Siemens connects frontline workers and engineers for real-time problem-solving using Azure AI Studio.”",
     author: "Adam Montgomery",
     post: "Senior Manager of Programming, Sundance Film Festival",
-    src: "/azure/carouselimg2.webp",
+    src: "/Customer-img-SIEMENS-2x.png",
   },
   {
     right:
-      "“We’re a grass-roots non-profit. When we use a tool that the rest of the design world uses, it helps professionalise our organisation.”",
+      "“HEINEKEN built chatbots that connect employees with information across the company using Azure OpenAI Service and its built-in ChatGPT capabilities.”",
     author: "Ann Kappes",
     post: "Director of Art Partnerships at Creativity Explored",
-    src: "/azure/carouselimg3.webp",
+    src: "/Customer-img-Heineken-2x.png",
   },
   {
     right:
-      "“My sister and I store and share recipes, and I use the app on my phone to look up ingredients while I’m at the grocery store. It’s very convenient and user friendly, without a lot of overhead.”      ",
+      "“General Motors reimagined its developer tool chain and its onboarding experience with Azure cloud-based developer services.”      ",
     author: "Lynette Elliot",
     post: "",
-    src: "/azure/carouselimg4.webp",
+    src: "/customer-image-gm-2x.png",
   },
   {
     right:
-      "“Our team is working remotely – everyone’s in a different time zone. Dropbox is a great hub for us to all work at once and seamlessly share files.” ",
+      "“Unilever laid the foundation for unconstrained capacity for business growth by migrating its SAP estate to Azure in just 18 months.” ",
     author: "Sophia Chang",
     post: "Illustrator and Designer",
-    src: "/azure/carouselimg5.webp",
+    src: "/customer-image-unilever-2x.png",
   },
   {
     right:
