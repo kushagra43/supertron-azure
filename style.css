@@ -19,6 +19,34 @@
   align-items: center;
 }
 
+
+.whychose-sec2 {
+  background-color: #f4f7fc;
+  padding: 60px;
+  padding-top: 120px;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.inner-hdr2 {
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(33, 98, 250);
+}
+
 .inner-hdr {
   font-size: 2.8em;
   font-weight: bold;
