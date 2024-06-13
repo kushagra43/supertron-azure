@@ -131,35 +131,35 @@ const slidesContent = [
       "“LEGO House takes the physical brick to new frontiers with inventive, interactive digital experiences built with Azure solutions.”",
     author: "Mary Ashley Krogh (MAK)",
     post: " Illustrator and Graphic Designer",
-    src: "/Customer-img-LEGO-2x.png",
+    src: "/azure/Customer-img-LEGO-2x.png",
   },
   {
     right:
       "“Siemens connects frontline workers and engineers for real-time problem-solving using Azure AI Studio.”",
     author: "Adam Montgomery",
     post: "Senior Manager of Programming, Sundance Film Festival",
-    src: "/Customer-img-SIEMENS-2x.png",
+    src: "/azure/Customer-img-SIEMENS-2x.png",
   },
   {
     right:
       "“HEINEKEN built chatbots that connect employees with information across the company using Azure OpenAI Service and its built-in ChatGPT capabilities.”",
     author: "Ann Kappes",
     post: "Director of Art Partnerships at Creativity Explored",
-    src: "/Customer-img-Heineken-2x.png",
+    src: "/azure/Customer-img-Heineken-2x.png",
   },
   {
     right:
       "“General Motors reimagined its developer tool chain and its onboarding experience with Azure cloud-based developer services.”      ",
     author: "Lynette Elliot",
     post: "",
-    src: "/customer-image-gm-2x.png",
+    src: "/azure/customer-image-gm-2x.png",
   },
   {
     right:
       "“Unilever laid the foundation for unconstrained capacity for business growth by migrating its SAP estate to Azure in just 18 months.” ",
     author: "Sophia Chang",
     post: "Illustrator and Designer",
-    src: "/customer-image-unilever-2x.png",
+    src: "/azure/customer-image-unilever-2x.png",
   },
   {
     right:
