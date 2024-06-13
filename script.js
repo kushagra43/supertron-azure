@@ -132,34 +132,32 @@ const slidesContent = [
     author: "Mary Ashley Krogh (MAK)",
     post: " Illustrator and Graphic Designer",
     src: "/azure/Customer-img-LEGO-2x.png",
+    src2:"/azure/Customer-logos-LEGO-@2x.avif",
+    
   },
   {
     right:
       "“Siemens connects frontline workers and engineers for real-time problem-solving using Azure AI Studio.”",
-    author: "Adam Montgomery",
-    post: "Senior Manager of Programming, Sundance Film Festival",
     src: "/azure/Customer-img-SIEMENS-2x.png",
+    src2:"/azure/Customer-logos-SIEMENS-@2x.avif"
   },
   {
     right:
       "“HEINEKEN built chatbots that connect employees with information across the company using Azure OpenAI Service and its built-in ChatGPT capabilities.”",
-    author: "Ann Kappes",
-    post: "Director of Art Partnerships at Creativity Explored",
     src: "/azure/Customer-img-Heineken-2x.png",
+    src2:"/azure/Customer-logos-HEINEKEN-@2x.avif"
   },
   {
     right:
       "“General Motors reimagined its developer tool chain and its onboarding experience with Azure cloud-based developer services.”      ",
-    author: "Lynette Elliot",
-    post: "",
     src: "/azure/customer-image-gm-2x.png",
+    src2:"/azure/customer-logo-gm-2x.avif"
   },
   {
     right:
       "“Unilever laid the foundation for unconstrained capacity for business growth by migrating its SAP estate to Azure in just 18 months.” ",
-    author: "Sophia Chang",
-    post: "Illustrator and Designer",
     src: "/azure/customer-image-unilever-2x.png",
+    src2:"/azure/customer-logo-unilever-2x-1.png"
   },
 ];
 
@@ -171,11 +169,8 @@ function updateSlide(index) {
   //   slidesContent[index].left;
   document.getElementById("right-paragraph").innerText =
     slidesContent[index].right;
-  document.getElementById("right-author").innerText =
-    slidesContent[index].author;
-  document.getElementById("right-author-post").innerText =
-    slidesContent[index].post;
-  document.getElementById("right-image").src = slidesContent[index].src;
+  document.getElementById("left-image").src = slidesContent[index].src;
+  document.getElementById("right-image").src = slidesContent[index].src2;
   indicators.forEach((indicator, i) => {
     indicator.classList.toggle("active", i === index);
   });
