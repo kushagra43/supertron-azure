@@ -161,20 +161,6 @@ const slidesContent = [
     post: "Illustrator and Designer",
     src: "/azure/customer-image-unilever-2x.png",
   },
-  {
-    right:
-      "“Dropbox version control is very important. You may want to go back to an earlier version because there’s an idea in there that you really like.”",
-    author: "Sahir Zaveri",
-    post: "CEO of King Children",
-    src: "/azure/carouselimg6.webp",
-  },
-  {
-    right:
-      "“We store important photos and documents for our family on Dropbox. Not only do I know they are in a safe location, but I’m also able to access them from anywhere.” ",
-    author: "Sarah Shelton",
-    post: "",
-    src: "/azure/carouselimg7.webp",
-  },
 ];
 
 const leftSlide = document.getElementById("left-slide");
