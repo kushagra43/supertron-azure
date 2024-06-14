@@ -1253,6 +1253,11 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+  .footer-img{
+    max-width: 450px;
+  }
+
+
   .p60v {
     padding-top: 40px;
     padding-bottom: 40px;
