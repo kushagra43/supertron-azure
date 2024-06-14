@@ -33,6 +33,11 @@
   gap: 20px;
 }
 
+.bluechange{
+  background-color: #104c8e!important;
+
+}
+
 .inner-hdr2 {
   font-size: 2.8em;
   font-weight: bold;
@@ -40,6 +45,11 @@
   margin-bottom: 20px;
   flex: 1;
 }
+
+.white{
+  color: #fff;
+}
+
 
 a {
   text-decoration: none;
@@ -302,8 +312,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 50px ;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+
 }
 
 .container1 {
