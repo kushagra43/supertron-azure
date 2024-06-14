@@ -45,10 +45,15 @@
   flex: 1;
 }
 
+.white-2{
+  color: #fff;
+  text-align: center;
+  padding-top: 120px;
+}
+
 .white{
   color: #fff;
 }
-
 
 a {
   text-decoration: none;
@@ -1350,10 +1355,6 @@ body {
     flex-direction: row;
   }
 
-  .align{
-    text-align: center;
-    padding-top: 120px;
-  }
 
   .ftr-lists {
     display: flex;
