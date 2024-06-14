@@ -1254,7 +1254,7 @@ body {
 
 @media only screen and (max-width: 480px) {
   .footer-img{
-    max-width: 450px;
+    max-width: 300px!important;
   }
 
 
