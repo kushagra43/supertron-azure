@@ -185,6 +185,7 @@ a {
   width: 50%;
   background-color: rgb(2, 91, 169);
   border-radius: 20px;
+  justify-content: center;
 }
 
 .images img {
