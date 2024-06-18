@@ -181,7 +181,7 @@ a {
   gap: 10px;
   flex: 1;
   padding: 3rem;
-  height: 24rem;
+  height: 27rem;
   width: 50%;
   background-color: rgb(2, 91, 169);
   border-radius: 20px;
@@ -333,7 +333,7 @@ a {
   padding: 40px;
   position: relative;
   width: 65%;
-  height: 25rem;
+  height: 14rem;
   overflow: hidden;
 }
 
