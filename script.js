@@ -198,3 +198,20 @@ indicators.forEach((indicator) => {
 updateSlide(currentSlide);
 
 // Slider Movements
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const labels = document.querySelectorAll('.tab-label');
+
+  labels.forEach(label => {
+      label.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+          }
+      });
+  });
+});
+
+
+

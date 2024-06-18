@@ -19,7 +19,6 @@
   align-items: center;
 }
 
-
 .whychose-sec2 {
   background-color: #f4f7fc;
   padding-left: 12rem;
@@ -31,26 +30,25 @@
   gap: 20px;
 }
 
-.bluechange{
-  background-color: #104c8e!important;
-
+.bluechange {
+  background-color: #104c8e !important;
 }
 
 .inner-hdr2 {
-  font-size: 2.8em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #000;
   margin-bottom: 20px;
   flex: 1;
 }
 
-.white-2{
+.white-2 {
   color: #fff;
   text-align: center;
   padding-top: 120px;
 }
 
-.white{
+.white {
   color: #fff;
 }
 
@@ -110,6 +108,100 @@ a {
   margin-right: 15px;
 }
 
+/* --------------------------------------------- */
+
+.tabs-container {
+  padding: 6rem 8rem;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center; /* Center the contents */
+
+}
+
+.tab-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tab-radio {
+  display: none;
+}
+
+.tab-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(2, 91, 169);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.tab-label:hover {
+  background-color: #16213e;
+}
+
+.tab-radio:checked + .tab-label {
+  background-color: #35b7ed;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+#tab1:checked ~ .tab-content#content1,
+#tab2:checked ~ .tab-content#content2,
+#tab3:checked ~ .tab-content#content3,
+#tab4:checked ~ .tab-content#content4,
+#tab5:checked ~ .tab-content#content5 {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.tab-content h2 {
+  margin-top: 0;
+}
+
+.tab-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tab-content ul li {
+  margin-bottom: 10px;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  padding: 3rem;
+  height: 24rem;
+  width: 50%;
+  background-color: rgb(2, 91, 169);
+}
+
+.images img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  padding: 4rem;
+  text-align: left;
+
+}
+
 /* ------------------------------------------- */
 
 .logoMarqueeSection {
@@ -152,7 +244,7 @@ a {
   margin-bottom: 4rem;
 }
 
-.marqueeheading{
+.marqueeheading {
   font-weight: 500;
   font-size: 40px;
 }
@@ -309,13 +401,12 @@ a {
 
 /* ------------------ */
 
-.main-container{
+.main-container {
   display: flex;
-  flex-direction: column  ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px ;
-
+  gap: 50px;
 }
 
 .container1 {
@@ -365,17 +456,16 @@ a {
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 
-
-  .features {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 12rem;
-    padding-right: 12rem;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-    gap: 3rem;
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  gap: 3rem;
 }
 
 .feature-h1 {
@@ -1256,10 +1346,9 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  .footer-img{
-    max-width: 300px!important;
+  .footer-img {
+    max-width: 300px !important;
   }
-
 
   .p60v {
     padding-top: 40px;
@@ -1354,7 +1443,6 @@ body {
     flex-direction: row;
   }
 
-
   .ftr-lists {
     display: flex;
     flex-direction: column;
@@ -1377,13 +1465,11 @@ body {
   }
 
   .features {
-
     padding-left: 2rem;
     padding-right: 2rem;
-
   }
 
-  .feature-h1{
+  .feature-h1 {
     font-size: 28px;
     text-align: center;
   }
@@ -1403,7 +1489,7 @@ body {
   .container1 {
     display: flex;
     flex-direction: column;
-      background-color: #fff;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     padding-left: 2rem;
@@ -1416,12 +1502,12 @@ body {
     max-width: 100%;
     flex: 1;
   }
-  .marqueeheading{
+  .marqueeheading {
     font-size: 28px;
     text-align: center;
     max-width: 100%;
   }
-  .marqueehead{
+  .marqueehead {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1486,12 +1572,55 @@ body {
     justify-content: space-between;
     padding-bottom: 0;
   }
- 
-  .logoMarqueeSection{
+
+  .logoMarqueeSection {
     display: flex;
   }
-
-  
-
+  .tabs-container {
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  #tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: flex;
+  flex-direction: column;
 }
 
+.tab-label{
+  margin: 3px;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  padding: 3rem;
+  height: 40rem;
+  width: 70%;
+  background-color: rgb(2, 91, 169);
+}
+
+.images img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.content {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+}
