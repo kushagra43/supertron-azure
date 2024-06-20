@@ -24,8 +24,6 @@
   padding-left: 6rem;
   padding-right: 12rem;
   border-radius: 8px;
-  margin: auto;
-  margin-top: 50px;
   display: flex;
   gap: 20px;
 }
@@ -132,13 +130,14 @@ a {
 
 .tab-label {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 24px;
   background-color: rgb(2, 91, 169);
-  border-radius: 10px;
+  border-radius: 8px;
   color: white;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
+  gap: 16px;
 }
 
 .tab-label:hover {
@@ -180,7 +179,7 @@ a {
   display: flex;
   gap: 10px;
   flex: 1;
-  padding: 3rem;
+  padding: 1rem;
   height: 20rem;
   width: 100%;
   background-color: rgb(2, 91, 169);
@@ -190,7 +189,7 @@ a {
 
 .images img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 .content {
@@ -579,6 +578,11 @@ body {
   display: none;
 }
 
+#emailError {
+  display: none;
+}
+
+
 .header-glass-morph {
   border-radius: 9px;
   border: 3px solid rgba(255, 255, 255, 0.06);
@@ -917,11 +921,19 @@ body {
 }
 
 .red-blue {
-  background: linear-gradient(90deg, #e73239 0.01%, #35b7ed 100%);
+  background: linear-gradient(90deg, #e73239 0.01%, #104c8f 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
+  font-size: 16px;
+}
+
+.lightblue{
+  background: linear-gradient(90deg, #e73239 0.01%, #35b7ed 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .whiteheadingbig {
@@ -1351,7 +1363,8 @@ body {
 
 @media only screen and (max-width: 480px) {
   .footer-img {
-    max-width: 300px !important;
+    margin-top: 24px;
+    max-width: 400px !important;
   }
 
   .p60v {
@@ -1533,10 +1546,8 @@ body {
     padding-left: 0;
     padding-right: 2rem;
     padding: 2rem;
-    padding-bottom: 0;
     display: flex;
     flex-direction: column;
-    /* gap: 120px; */
     width: auto;
   }
 
