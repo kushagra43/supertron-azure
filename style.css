@@ -929,11 +929,13 @@ body {
   font-size: 16px;
 }
 
-.lightblue{
-  background: linear-gradient(90deg, #e73239 0.01%, #35b7ed 100%);
+.red-white {
+  background: linear-gradient(90deg, #ffffff 0.01%, #ffffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .whiteheadingbig {
