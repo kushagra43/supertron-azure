@@ -1447,6 +1447,10 @@ body {
 
   }
 
+  .form-container{
+    margin-top: 10px;
+  }
+
   .bluebutton {
     padding: 16px 16px;
     font-size: 15px;
