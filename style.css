@@ -1663,6 +1663,15 @@ body {
   background-color: rgb(2, 91, 169);
 }
 
+.carousel-controls{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.carousel-left{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
 .images img {
   width: 100%;
   border-radius: 4px;
