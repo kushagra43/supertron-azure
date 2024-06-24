@@ -191,6 +191,10 @@ a {
   border-radius: 20px;
 }
 
+.whiteparah{
+  font-size: 13px;
+}
+
 .content {
   flex: 1;
   display: flex;
