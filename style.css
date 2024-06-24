@@ -1455,7 +1455,9 @@ body {
     padding: 16px 16px;
     font-size: 15px;
   }
-
+.carousel-buttons{
+  padding-top: 20px;
+}
   .normal {
     font-size: 16px;
     line-height: 20px;
