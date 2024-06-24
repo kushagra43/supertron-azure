@@ -101,7 +101,7 @@ a {
   content: "✔"; /* Unicode character for check mark */
   color: #d40000;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-right: 15px;
 }
 
@@ -1343,7 +1343,7 @@ body {
 
   .whiteparah {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .whiteheadingnormal {
