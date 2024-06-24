@@ -131,33 +131,33 @@ const slidesContent = [
       "“LEGO House takes the physical brick to new frontiers with inventive, interactive digital experiences built with Azure solutions.”",
     author: "Mary Ashley Krogh (MAK)",
     post: " Illustrator and Graphic Designer",
-    src: "/Customer-img-LEGO-2x.png",
-    src2:"/Customer-logos-LEGO-@2x.avif",
+    src: "/azure/Customer-img-LEGO-2x.png",
+    src2:"/azure/Customer-logos-LEGO-@2x.avif",
     
   },
   {
     right:
       "“Siemens connects frontline workers and engineers for real-time problem-solving using Azure AI Studio.”",
-    src: "/Customer-img-SIEMENS-2x.png",
-    src2:"/Customer-logos-SIEMENS-@2x.avif"
+    src: "/azure/Customer-img-SIEMENS-2x.png",
+    src2:"/azure/Customer-logos-SIEMENS-@2x.avif"
   },
   {
     right:
       "“HEINEKEN built chatbots that connect employees with information across the company using Azure OpenAI Service and its built-in ChatGPT capabilities.”",
-    src: "/Customer-img-Heineken-2x.png",
-    src2:"/Customer-logos-HEINEKEN-@2x.avif"
+    src: "/azure/Customer-img-Heineken-2x.png",
+    src2:"/azure/Customer-logos-HEINEKEN-@2x.avif"
   },
   {
     right:
       "“General Motors reimagined its developer tool chain and its onboarding experience with Azure cloud-based developer services.”      ",
-    src: "/customer-image-gm-2x.png",
-    src2:"/customer-logo-gm-2x.avif"
+    src: "/azure/customer-image-gm-2x.png",
+    src2:"/azure/customer-logo-gm-2x.avif"
   },
   {
     right:
       "“Unilever laid the foundation for unconstrained capacity for business growth by migrating its SAP estate to Azure in just 18 months.” ",
-    src: "/customer-image-unilever-2x.png",
-    src2:"/customer-logo-unilever-2x-1.png"
+    src: "/azure/customer-image-unilever-2x.png",
+    src2:"/azure/customer-logo-unilever-2x-1.png"
   },
 ];
 
