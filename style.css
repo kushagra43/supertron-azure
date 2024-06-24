@@ -556,6 +556,7 @@ body {
   max-width: 600px;
   width: 100%;
   flex: 1;
+  gap:20px
 }
 
 .header-img {
@@ -1404,6 +1405,9 @@ body {
 
   .p60v-2 {
     padding-top: 10px;
+  }
+  .header-text-container{
+    gap: 5px;
   }
 
   .lyteLazyLoaded.anim-init {
