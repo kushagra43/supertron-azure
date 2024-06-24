@@ -1478,6 +1478,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .whychose-sec2 {
     display: flex;
