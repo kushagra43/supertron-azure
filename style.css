@@ -33,7 +33,7 @@
 
 .inner-hdr2 {
   font-size: 2.5em;
-  font-weight: bold;
+  font-weight:500;
   color: #000;
   margin-bottom: 20px;
   flex: 1;
@@ -795,7 +795,7 @@ body {
 
 /* Slider */
 .slide {
-  background: #0069ec;
+  background: rgb(2, 91, 169);
   padding: 40px 60px;
   height: 230px;
   min-width: 400px;
@@ -804,6 +804,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: start;
   overflow-x: scroll;
 }
 
@@ -1383,6 +1384,7 @@ body {
     padding: 20px;
     min-width: 240px;
     height: auto;
+    align-items: center;
   }
 
   .key-benefits-heading-container {
