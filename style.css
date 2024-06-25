@@ -1604,6 +1604,7 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
+    height: 40rem;
   }
 
   .carousel-content {
