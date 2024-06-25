@@ -1604,7 +1604,7 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 70rem;
+    height: 60rem;
   }
 
   .carousel-content {
@@ -1625,6 +1625,7 @@ body {
     width: 100%;
     font-size: 1rem;
     padding-bottom: 0px;
+    height: 30rem;
   }
   .carousel-left p {
     font-size: 1.4rem;
