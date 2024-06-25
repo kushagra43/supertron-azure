@@ -92,7 +92,7 @@ a {
 .list-item {
   display: flex;
   align-items: start;
-  font-size: 1rem;
+  font-size: 1.rem;
   color: #f5f5f5;
   margin-bottom: 15px;
 }
