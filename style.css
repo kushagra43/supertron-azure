@@ -114,6 +114,7 @@ a {
   border-radius: 8px;
   overflow: hidden;
   text-align: center; /* Center the contents */
+
 }
 
 .tab-controls {
@@ -190,7 +191,7 @@ a {
   border-radius: 20px;
 }
 
-.whiteparah {
+.whiteparah{
   font-size: 14px;
 }
 
@@ -203,6 +204,7 @@ a {
   gap: 2rem;
   padding: 4rem;
   text-align: left;
+
 }
 
 /* ------------------------------------------- */
@@ -460,6 +462,8 @@ a {
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 
+
+
 .features {
   display: flex;
   flex-direction: column;
@@ -472,10 +476,12 @@ a {
   gap: 3rem;
 }
 
-.featureh1 {
+
+.featureh1{
   font-weight: 500;
   padding-bottom: 1rem;
   text-align: center;
+
 }
 
 .features-div {
@@ -485,7 +491,7 @@ a {
   padding-right: 6rem;
 }
 
-.feature-img {
+.feature-img{
   height: 60px;
   width: 60px;
   padding-bottom: 10px;
@@ -497,9 +503,10 @@ a {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  box-shadow: 0px 8px 21px -4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 21px -4px rgba(0,0,0,0.1);
   border-radius: 2rem;
   gap: 10px;
+
 }
 .feature-p {
   display: flex;
@@ -508,6 +515,7 @@ a {
   align-items: center;
   text-align: center;
   font-size: 14px;
+
 }
 
 .footer-link {
@@ -552,7 +560,7 @@ body {
   max-width: 600px;
   width: 100%;
   flex: 1;
-  gap: 20px;
+  gap:20px
 }
 
 .header-img {
@@ -604,6 +612,7 @@ body {
 #emailError {
   display: none;
 }
+
 
 .header-glass-morph {
   border-radius: 9px;
@@ -974,6 +983,7 @@ body {
 
 .whiteparah {
   color: #000;
+
 }
 
 .normal {
@@ -1400,7 +1410,7 @@ body {
   .p60v-2 {
     padding-top: 10px;
   }
-  .header-text-container {
+  .header-text-container{
     gap: 5px;
   }
 
@@ -1436,11 +1446,12 @@ body {
     height: 20px;
   }
 
-  .features-div {
+  .features-div{
     padding-top: 15px;
+
   }
 
-  .form-container {
+  .form-container{
     margin-top: 10px;
   }
 
@@ -1448,9 +1459,9 @@ body {
     padding: 16px 16px;
     font-size: 15px;
   }
-  .carousel-buttons {
-    padding-top: 20px;
-  }
+.carousel-buttons{
+  padding-top: 20px;
+}
   .normal {
     font-size: 16px;
     line-height: 20px;
@@ -1614,7 +1625,6 @@ body {
     width: 100%;
     font-size: 1rem;
     padding-bottom: 0px;
-    height: 34rem;
   }
   .carousel-left p {
     font-size: 1.4rem;
@@ -1646,54 +1656,55 @@ body {
     overflow: hidden;
   }
   #tab1:checked ~ #content1,
-  #tab2:checked ~ #content2,
-  #tab3:checked ~ #content3,
-  #tab4:checked ~ #content4,
-  #tab5:checked ~ #content5 {
-    display: flex;
-    flex-direction: column;
-  }
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: flex;
+  flex-direction: column;
+}
 
-  .tab-label {
-    margin: 3px;
-  }
+.tab-label{
+  margin: 3px;
+}
 
-  .images {
-    display: flex;
-    gap: 10px;
-    flex: 1;
-    padding: 3rem;
-    height: 40rem;
-    width: 70%;
-    background-color: rgb(2, 91, 169);
-  }
+.images {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  padding: 3rem;
+  height: 40rem;
+  width: 70%;
+  background-color: rgb(2, 91, 169);
+}
 
-  .carousel-controls {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .carousel-left {
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
+.carousel-controls{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.carousel-left{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
 
-  .images img {
-    width: 100%;
-    border-radius: 4px;
-  }
+.images img {
+  width: 100%;
+  border-radius: 4px;
+}
 
-  .content {
-    flex: 1;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    text-align: center;
-  }
+.content {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
 
-  #right-image {
-    padding-bottom: 2rem;
-  }
+#right-image{
+  padding-bottom: 2rem;
+}
+
 }
