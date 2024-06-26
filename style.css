@@ -518,6 +518,7 @@ a {
 
 }
 
+
 .footer-link {
   color: #007bff;
   text-decoration: none;
@@ -1560,6 +1561,9 @@ body {
     row-gap: 30px;
     max-width: 100%;
   }
+  .navbar-buttom{
+    font-size: 12px;
+  }
   .container1 {
     display: flex;
     flex-direction: column;
@@ -1657,6 +1661,18 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
+  .list-item::before {
+    content: "✔"; /* Unicode character for check mark */
+    color: #d40000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+  .footer-text{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
